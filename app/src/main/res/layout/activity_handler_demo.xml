@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_handler_demo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.zhangyan.style_handler.HandlerDemoActivity">
+
+    <TextView
+        android:id="@+id/text_view_demo"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:textSize="22dp"
+        android:gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:text="10"
+        />
+
+    <Button
+        android:id="@+id/btn_add_demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自动增加" />
+
+    <Button
+        android:id="@+id/btn_reduce_demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自动减少" />
+
+    <Button
+        android:id="@+id/btn_stop_demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="暂停" />
+
+
+</LinearLayout>
