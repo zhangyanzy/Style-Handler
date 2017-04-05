@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Style-Handler</string>
+    <string name="load_apk">LOAD APK</string>
 </resources>

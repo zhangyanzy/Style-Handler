@@ -17,7 +17,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 /**
- * Created by zhangyan on 2017/3/31.
+ * Created by zhang_yan on 2017/3/31.
  */
 public class HandlerTestActivity extends AppCompatActivity implements View.OnClickListener {
     private ProgressBar mprogressBar;

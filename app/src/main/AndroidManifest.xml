@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity" />
-        <activity android:name=".ImageActivity"></activity>
+        <activity android:name=".ImageActivity" />
         <activity android:name=".SecondActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,7 +20,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".HandlerTestActivity" />
-        <activity android:name=".HandlerDemoActivity"></activity>
+        <activity android:name=".HandlerDemoActivity" />
+        <activity android:name=".AsyncTaskTestActivity"></activity>
     </application>
 
 </manifest>

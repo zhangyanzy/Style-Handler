@@ -54,7 +54,6 @@ public class HandlerDemoActivity extends AppCompatActivity implements View.OnCli
                     break;
                 default:
                     break;
-
             }
         }
     };
